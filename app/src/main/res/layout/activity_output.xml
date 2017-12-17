@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fatih.mehmetfatihinan_mapd711_practicaltest.BMICalculator">
+
+
+
+    <LinearLayout>
+
+        <TextView
+            android:id="@+id/textView131"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="15dp"
+            android:textAlignment="center"
+            android:text="These are the results"
+            android:textSize="@dimen/mainscreentextsize"
+            android:textColor="@color/primary_text"
+            />
+    </LinearLayout>
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="5pt"
+        >
+
+
+        <TextView
+            android:id="@+id/textVi2222"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit"
+            android:paddingRight="75dp"
+            />
+
+        <TextView
+            android:id="@+id/outputUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:paddingBottom="5pt"
+        android:layout_height="match_parent" >
+
+
+        <TextView
+            android:id="@+id/textVi222"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender" />
+
+        <TextView
+            android:id="@+id/outputGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:paddingBottom="5pt"
+        android:layout_height="match_parent" >
+
+
+        <TextView
+            android:id="@+id/textView222"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age" />
+
+        <TextView
+            android:id="@+id/outputAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:paddingBottom="5pt"
+        android:layout_height="match_parent" >
+
+
+    <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height" />
+
+        <TextView
+            android:id="@+id/outputHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:paddingBottom="5pt"
+        android:layout_height="match_parent" >
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Length" />
+
+        <TextView
+            android:id="@+id/outputWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="5pt"
+        >
+
+
+        <TextView
+            android:id="@+id/textV22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your BMI"
+            android:paddingRight="75dp"
+            />
+
+        <TextView
+            android:id="@+id/outputBMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="5pt"
+        >
+
+
+        <TextView
+            android:id="@+id/textVi22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your BMI Status is"
+
+            />
+
+        <TextView
+            android:id="@+id/outputStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status" />
+    </TableRow>
+
+</TableLayout>

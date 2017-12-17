@@ -28,7 +28,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".WebViewActivity" />
-        <activity android:name=".BMICalculator"></activity>
+        <activity android:name=".BMICalculator" />
+        <activity android:name=".Output"></activity>
     </application>
 
 </manifest>
