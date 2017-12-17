@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void btnCalculator (View view)
     {
-        Intent i = new Intent(MainActivity.this, BMICalculator.class);
-        startActivity(i);
+        Intent i2 = new Intent(MainActivity.this, BMICalculator.class);
+        startActivity(i2);
     }
 
 
