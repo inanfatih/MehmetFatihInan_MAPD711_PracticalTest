@@ -20,21 +20,21 @@
     </LinearLayout>
     <LinearLayout>
     <RadioGroup
-        android:id="@+id/radioGroup"
+        android:id="@+id/radioGroupUnit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="5dp"
         >
 
         <RadioButton
-            android:id="@+id/radioMetric"
+            android:id="@+id/metric"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Metric Calculation ( cm and kg)" />
 
         <RadioButton
-            android:id="@+id/radioStandard"
+            android:id="@+id/standard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -58,7 +58,7 @@
 
 <TableRow>
     <RadioGroup
-        android:id="@+id/gender"
+        android:id="@+id/radioGroupGender"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="5dp"
@@ -72,7 +72,7 @@
             android:text="Male" />
 
         <RadioButton
-            android:id="@+id/Female"
+            android:id="@+id/female"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -134,7 +134,7 @@
             android:text="Weight" />
 
         <EditText
-            android:id="@+id/weightEditText"
+            android:id="@+id/editTextWeight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
